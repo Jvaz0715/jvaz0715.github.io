@@ -12,8 +12,22 @@ img {
     width: 300px;
 }
 
+img:hover {
+    width: 350px;
+}
+
 .rotate-image {
     transform: rotate(180deg);
     opacity: 50%;
     border: none;
+}
+
+button {
+    background-color: peru;
+    color: white;
+}
+
+button:hover {
+    background-color: black;
+    width: 100px;
 }
